@@ -53,7 +53,7 @@ namespace progra_2
             if (ComboBoxLicores.Text == "Tequila")
             {
                 CargarTequila();
-            }
+            }  
             if (ComboBoxLicores.Text == "Cerveza")
             {
                 CargarCerveza();

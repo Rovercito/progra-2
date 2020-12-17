@@ -1,0 +1,22 @@
+﻿<Window x:Class="progra_2.Quiens"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:progra_2"
+        mc:Ignorable="d"
+        Title="Quiens" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="img.jpg"/>
+        </Grid.Background>
+        <Label Content="¿quienes somos?" HorizontalAlignment="Left" Margin="313,41,0,0" VerticalAlignment="Top" Width="201" FontWeight="Bold" FontSize="24" Foreground="#FFFCF9F9"/>
+        <Label Content="Somos una empresa dedicada al desarrollo de software&#xD;&#xA;Fundada en 2020.&#xD;&#xA;en el cual nuestra intención es cumplir con los pedidos &#xD;&#xA;del cliente, en este caso se pido un sistema de ventas de&#xD;&#xA;una licorería. &#xD;&#xA;En Caso de Cualquier consulta debe contactarse con el siguiente correo:&#xD;&#xA;dessoftware@gmai.com&#x9;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;REARM-2020&#xD;&#xA; " HorizontalAlignment="Left" Margin="50,88,0,0" VerticalAlignment="Top" Width="712" Height="304" Foreground="#FFFAF0F0" FontSize="22"/>
+        <Button x:Name="btnSalir" Content="" HorizontalAlignment="Left" Margin="709,10,0,0" VerticalAlignment="Top" Width="75" Height="40" Click="btnSalir_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="closebutton.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

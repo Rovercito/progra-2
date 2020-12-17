@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="progra 2.exe" version="1.0.0.1" publicKeyToken="1441304484ce604e" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="progra 2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="progra 2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="progra 2.exe" size="8336344">
+      <assemblyIdentity name="progra 2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pjqfYHjm1otRYVIoiyRa12/yRVHjBMUmqON1g5CuSTE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon.ico" size="119742">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7uNwvPftMdP77w0KewXJMW55LkrSbxxSrp77jTtXKBU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="progra 2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-DFH4R64\Eddy" issuerKeyHash="b4ff4c3a20db32067648ff173c31606bc46c8af3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>U/C3V4QjxFYmrMHRaO/6EESUUWzAfnmGxn0s4e8b6wM=</DigestValue></Reference></SignedInfo><SignatureValue>dfUtig75j1zFO3kyUmY1pHKAwDL4I6UxmCdw/9EMOPq+X1fKDqUlWlRrGb7GMX85x4Uaws69xp2q79XE1UGk4eq367hzRIaTStjVMyIVUgvc3uSzdPBg7WQqIbNZqhJeaMZ3kM087SIjatqUQCYwlwTnYm8Ng2nFzw7TEykK/iQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5b1bu7uJZeVNeWqlO5L3BnjLQnSVeLndAceYdcG2PhKzCRbrcVgDbTpd95VAZwpg8uJaq+ARKlAlKc/OdSZcJZP51I/wcXro7Ws9xpfTpHwwTEr27ppnoPYMg/d1jIoKbcsYqjeSu1/c8RObW5VbmPBSLeJCJ9tPO8HjFdXAnU0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="03eb1befe12c7dc686797ec06c51944410faef68d1c1ac2656c4238457b7f053" Description="" Url=""><as:assemblyIdentity name="progra 2.exe" version="1.0.0.1" publicKeyToken="1441304484ce604e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-DFH4R64\Eddy</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kuvPH8KXPM86JIkUtE6gMtL537YQjl/R4QZLiBssC5M=</DigestValue></Reference></SignedInfo><SignatureValue>2iimfAlIGZrEL2bVX5M84gSsumibOVT5JZkFC7aBYWeMgNnMeVOUVv8I50ICFvJfTJjwIdR8yNIRFfsK86Poz2WGq9Fk7xMAHjhoPF/IKRb2BLctBYpqIY7pprunK7g+mH7uYclpqHJRl+bHSDXJW82Fpneu1fIcqIsCi1+7TlQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5b1bu7uJZeVNeWqlO5L3BnjLQnSVeLndAceYdcG2PhKzCRbrcVgDbTpd95VAZwpg8uJaq+ARKlAlKc/OdSZcJZP51I/wcXro7Ws9xpfTpHwwTEr27ppnoPYMg/d1jIoKbcsYqjeSu1/c8RObW5VbmPBSLeJCJ9tPO8HjFdXAnU0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQGtLtE2GdqIVOgl7ZlU+aKDANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEQARgBIADQAUgA2ADQAXABFAGQAZAB5MB4XDTIwMTIxNzE1NTkzOFoXDTIxMTIxNzIxNTkzOFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBEAEYASAA0AFIANgA0AFwARQBkAGQAeTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA5b1bu7uJZeVNeWqlO5L3BnjLQnSVeLndAceYdcG2PhKzCRbrcVgDbTpd95VAZwpg8uJaq+ARKlAlKc/OdSZcJZP51I/wcXro7Ws9xpfTpHwwTEr27ppnoPYMg/d1jIoKbcsYqjeSu1/c8RObW5VbmPBSLeJCJ9tPO8HjFdXAnU0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQB7XQe39ScSJsXlQZDF4mb5ZDGLH1MSJEb4o2IqxG+o54vbsPw5AByrjCthLBGNMaUIs4iJceVMPv0j5h95+iLpkZxQlR3lQ3sBXFNsMHMp5WUktHTpX+/W7301IF81xaI5h9rYvb0jV2cwQVCoGxG3QSt7iaHqqAnbEguMZ7RCGQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

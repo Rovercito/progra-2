@@ -1,0 +1,29 @@
+﻿<Window x:Class="progra_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:progra_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="955" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+    <Window.Background>
+        <ImageBrush ImageSource="Imagenes/beer2.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="bde224471866953cd8ad0ba675c78a76-700.jpg"/>
+        </Grid.Background>
+        <Button x:Name="Buttonclose" Content="" HorizontalAlignment="Left" Margin="915,10,0,0" VerticalAlignment="Top" Width="30" Height="20" Click="Buttonclose_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Imagenes/closebutton.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="145,260,0,0" VerticalAlignment="Top" Foreground="White" Height="60" Width="175" FontSize="36"/>
+        <TextBox x:Name="TextBoxUsuario" HorizontalAlignment="Left" Height="40" Margin="325,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="319" FontSize="28"/>
+        <Label Content="Usuario:" HorizontalAlignment="Left" Margin="180,195,0,0" VerticalAlignment="Top" Foreground="White" Height="60" Width="140" FontSize="36"/>
+        <PasswordBox x:Name="PasswodBox1" HorizontalAlignment="Left" Margin="325,275,0,0" VerticalAlignment="Top" Width="319" Height="40" FontSize="28"/>
+        <Button x:Name="ButtonIngresar" Content="Ingresar" HorizontalAlignment="Left" Margin="145,421,0,0" VerticalAlignment="Top" Width="140" Height="49" Background="White" FontSize="29" Click="ButtonIngresar_Click"/>
+        <Button Content="Registrarse" HorizontalAlignment="Left" Margin="677,421,0,0" VerticalAlignment="Top" Width="150" Height="49" FontSize="29" Background="White" Click="Button_Click"/>
+
+    </Grid>
+</Window>

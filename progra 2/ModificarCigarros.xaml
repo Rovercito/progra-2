@@ -1,0 +1,56 @@
+﻿<Window x:Class="progra_2.ModificarCigarros"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:progra_2"
+        mc:Ignorable="d"
+        Title="ModificarCigarros" Height="550" Width="955" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+    <Window.Background>
+        <ImageBrush ImageSource="Imagenes/Cigarro.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="camel.jpg"/>
+        </Grid.Background>
+        <TextBox x:Name="texboxNuevoNombre" HorizontalAlignment="Left" Height="55" Margin="370,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" FontSize="25"/>
+        <Label x:Name="LabelIDNuevo" Content="" HorizontalAlignment="Left" Margin="175,154,0,0" VerticalAlignment="Top" Foreground="White" FontSize="20" Width="45"/>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="60,255,0,0" VerticalAlignment="Top" Foreground="White" Width="90" FontSize="20"/>
+        <TextBox x:Name="TexboxNuevoPrecio" HorizontalAlignment="Left" Height="55" Margin="365,363,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" FontSize="25"/>
+        <Button x:Name="ButtonAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="160,38,0,0" VerticalAlignment="Top" Height="60" Width="160" Background="White" FontSize="20" Click="ButtonAgregar_Click"/>
+        <Button x:Name="ButtonModificar" Content="Modificar" HorizontalAlignment="Left" Margin="355,37,0,0" VerticalAlignment="Top" Height="60" Width="160" Background="White" FontSize="20" Click="ButtonModificar_Click"/>
+        <Button x:Name="ButtonEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="590,38,0,0" VerticalAlignment="Top" Height="60" Width="160" Background="White"  FontSize="20" Click="ButtonEliminar_Click"/>
+        <TextBox x:Name="TextBoxIdEliminar" HorizontalAlignment="Left" Height="55" Margin="605,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" FontSize="25"/>
+        <TextBox x:Name="TextBoxNombre" HorizontalAlignment="Left" Height="55" Margin="605,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" FontSize="25"/>
+        <TextBox x:Name="TexBoxProductoNuevo" HorizontalAlignment="Left" Height="55" Margin="175,255,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145" FontSize="25"/>
+        <TextBox x:Name="TexBoxPrecio" HorizontalAlignment="Left" Height="55" Margin="175,363,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145" FontSize="25"/>
+        <Button x:Name="buttonCerrar" Content="" HorizontalAlignment="Left" Margin="915,0,0,520.4" VerticalAlignment="Bottom" Width="30" Height="20" Click="ButtonCerrar_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Imagenes/closebutton.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Precio:" HorizontalAlignment="Left" Margin="80,363,0,0" VerticalAlignment="Top" Foreground="White" Width="70" FontSize="20"/>
+        <Label Content="Tipo:" HorizontalAlignment="Left" Margin="90,455,0,0" VerticalAlignment="Top" Foreground="Black" Width="60" FontSize="20"/>
+        <Label Content="ID:" HorizontalAlignment="Left" Margin="90,154,0,0" VerticalAlignment="Top" Foreground="White" Width="45" FontSize="20"/>
+        <ComboBox x:Name="ComboBoxLicores" HorizontalAlignment="Left" Margin="175,455,0,0" VerticalAlignment="Top" Width="145" Height="55" FontSize="25" Foreground="#FF0E0000" Background="{x:Null}" BorderBrush="Black">
+            <ComboBoxItem Content="Marlboro" IsSelected="True"/>
+            <ComboBoxItem Content="Pall Mall"/>
+            <ComboBoxItem Content="Camel"/>
+            <ComboBoxItem Content="Derby"/>
+        </ComboBox>
+        <ComboBox x:Name="ComboBoxLicoresModificar" HorizontalAlignment="Left" Margin="370,451,0,0" VerticalAlignment="Top" Width="145" Height="55" FontSize="25" RenderTransformOrigin="0.276,0.644" Background="{x:Null}" BorderBrush="Black">
+            <ComboBoxItem Content="Marlboro" IsSelected="True"/>
+            <ComboBoxItem Content="Pall Mall"/>
+            <ComboBoxItem Content="Camel"/>
+            <ComboBoxItem Content="Derby"/>
+        </ComboBox>
+        <TextBox x:Name="TextBoxBuscarId" HorizontalAlignment="Left" Height="55" Margin="365,154,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145" FontSize="25"/>
+        <ComboBox x:Name="ComboBoxLicoresEliminar" HorizontalAlignment="Left" Margin="605,363,0,0" VerticalAlignment="Top" Width="145" Height="55" FontSize="25" RenderTransformOrigin="0.276,0.644" Background="{x:Null}" BorderBrush="Black">
+            <ComboBoxItem Content="Marlboro" IsSelected="True"/>
+            <ComboBoxItem Content="Pall Mall"/>
+            <ComboBoxItem Content="Camel"/>
+            <ComboBoxItem Content="Derby"/>
+        </ComboBox>
+
+    </Grid>
+</Window>
